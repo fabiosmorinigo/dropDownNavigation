@@ -35,8 +35,8 @@ Desktop version menu show
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/fabiosmorinigo/dropDownNavigation](https://github.com/fabiosmorinigo/dropDownNavigation)
+- Live Site URL: [https://fabiosmorinigo.github.io/dropDownNavigation/](https://fabiosmorinigo.github.io/dropDownNavigation/)
 
 
 ### Built with
