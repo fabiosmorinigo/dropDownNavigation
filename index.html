@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Fabio Sosa">
+  <meta name="description" content="This is a project made as a challenge from frontend mentor, where I put my html5, css3 and javascript skills to the test.">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Fabio Sosa | DropdownNavigation</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/2392c0aa52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<main id="container" class="container">
+<nav class="nav">
+  <div class="close">
+    <img id="closeMenu" src="./images/icon-close-menu.svg" alt="icon close">
+  </div>
+  <div class="features">
+    <div class="features__items">
+      <li id="featuresTitle" class='nav-flex'><h3>Features</h3><img src='./images/icon-arrow-down.svg'></li>
+      <ul class="nav-flex__items">
+        <li><a href='#'><img src='./images/icon-todo.svg'><span>Todo List</span></a></li>
+        <li><a href='#'><img src='./images/icon-calendar.svg'><span>Calendar</span></a></li>
+        <li><a href='#'><img src='./images/icon-reminders.svg'><span>Reminders</span></a></li>
+        <li><a href='#'><img src='./images/icon-planning.svg'><span>Planning</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="company">
+    <li id='company' class='nav-flex'><h3 id="company">Company</h3><img src='./images/icon-arrow-down.svg'></li>
+    <div class="compay__items">
+      <li><a href="#">History</a></li>
+      <li><a href="#">Our Team</a></li>
+      <li><a href="#">Blog</a></li>
+    </div>
+  </div>
+  <h3>Careers</h3>
+  <h3>About</h3>
+  <h2>Login</h2>
+  <button id="btnRegister" type='button'>Register</button>
+</nav>
+<article class="container2">
+  <header class="header">
+    <h1 ><a id="titleLogo" href="/">snap</a></h1>
+    <section class="nav-right">
+      <img id="mode" src="./images/night-mode.png" alt="" class="darkLight">
+      <img id="menu" src="./images/icon-menu.svg" alt="icon menu">
+    </section>
+  </header>
+
+  <nav class="nav2">
+    <div class="flex1">
+      <div class="features2">
+        <div class="features__items2">
+          <li id="featuresTitle2" class='nav-flex2'><h3 class="nav-item"">Features</h3><img src='./images/icon-arrow-down.svg'></li>
+          <ul class="nav-flex__items2">
+            <div class="features__items2-hover">
+              <li><a href='#'><img src='./images/icon-todo.svg'><span>Todo List</span></a></li>
+              <li><a href='#'><img src='./images/icon-calendar.svg'><span>Calendar</span></a></li>
+              <li><a href='#'><img src='./images/icon-reminders.svg'><span>Reminders</span></a></li>
+              <li><a href='#'><img src='./images/icon-planning.svg'><span>Planning</span></a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="company2">
+        <li id='company2' class='nav-flex2'><h3 id="company2" class="nav-item"">Company</h3><img src='./images/icon-arrow-down.svg'></li>
+        <div class="compay__items2">
+          <li><a href="#">History</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Blog</a></li>
+        </div>
+      </div>
+      <h3><a href="/" class="nav-item">Careers</a></h3>
+      <h3><a href="/" class="nav-item">About</a></h3>
+    </div>
+    <div class="flex2">
+      <a href="/" class="login">Login</a>
+      <a href="/" id="btnRegister2" class="fix" type='button'>Register</a>
+    </div>
+  </nav>
+
+  <article class="article">
+    <section class="main__image">
+      <img class="imgMobile" src="./images/image-hero-mobile.png" alt="Image hero mobile">
+      <img class="imgDesktop" src="./images/image-hero-desktop.png" alt="Image hero desktop">
+    </section>
+    <section class="main__content">
+      <h2 id="titleContent">Make remote work</h2>
+      <h2 id="titleContentDesktop">Make <br>remote work</h2>
+      <p> Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+      <button type="button" id="button" class="button">Learn more</button>
+    </section>
+  </article>
+  
+  
+  <footer class="footer">
+    <img src="./images/client-databiz.svg" alt="Image Databiz">
+    <img src="./images/client-audiophile.svg" alt="Image Audiophile">
+    <img src="./images/client-meet.svg" alt="Image meet">
+    <img src="./images/client-maker.svg" alt="Image maker ">
+  </footer>
+  
+</article>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>
