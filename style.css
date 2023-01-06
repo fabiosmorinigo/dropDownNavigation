@@ -295,10 +295,12 @@ html {
     grid-column: 2 / 13;
     grid-row: 1 / 1;
     justify-content: space-between;
-    margin-top: 45px;
+    /* margin-top: 45px; */
+    /* padding-top: 20px; */
     font-size: 1rem;
     color: var(--lightText);
     margin-left: 110px;
+    padding-top: 25px;
   }
 
   .header a {
@@ -313,6 +315,7 @@ html {
     display: flex;
     justify-content: space-around;
     width: 600px;
+    margin-top: 10px;
   }
 
   .flex1 #featuresTitle2 {
